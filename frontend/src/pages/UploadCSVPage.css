@@ -1,0 +1,148 @@
+.upload-csv-page h1 {
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+.agent-count-info {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.count-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.count-badge.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.count-badge.warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.count-message {
+    margin: 0;
+    color: #6c757d;
+}
+
+.file-upload-section {
+    margin-bottom: 2rem;
+}
+
+.file-label {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.file-input {
+    display: none;
+}
+
+.file-button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.file-button:hover {
+    background-color: #0056b3;
+}
+
+.file-name {
+    color: #6c757d;
+    font-style: italic;
+}
+
+.file-requirements {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+}
+
+.file-requirements h3 {
+    margin: 0 0 1rem 0;
+    color: #2c3e50;
+}
+
+.file-requirements ul {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.file-requirements li {
+    margin-bottom: 0.5rem;
+    color: #495057;
+}
+
+.success-alert {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #c3e6cb;
+}
+
+.distribution-results {
+    margin-top: 2rem;
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.distribution-results h2 {
+    margin: 0 0 1rem 0;
+    color: #2c3e50;
+}
+
+.result-summary {
+    margin-bottom: 1.5rem;
+    color: #495057;
+}
+
+.distribution-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.distribution-item {
+    background: white;
+    padding: 1rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.distribution-item h4 {
+    margin: 0 0 0.25rem 0;
+    color: #2c3e50;
+}
+
+.distribution-item p {
+    margin: 0;
+    color: #6c757d;
+    font-size: 0.875rem;
+}
+
+.assigned-count {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+}

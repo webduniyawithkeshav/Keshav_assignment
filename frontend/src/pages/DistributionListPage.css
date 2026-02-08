@@ -1,0 +1,145 @@
+.distribution-list-page h1 {
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+.filters-container {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.filter-group {
+    flex: 1;
+    min-width: 200px;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.filter-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.records-table-container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+.records-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.records-table th,
+.records-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.records-table th {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+}
+
+.records-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.email-text {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.status-pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status-in-progress {
+    background-color: #cfe2ff;
+    color: #084298;
+}
+
+.status-completed {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.status-failed {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn-page {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-page:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.btn-page:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.page-info {
+    color: #495057;
+    font-size: 0.9rem;
+}
+
+.no-data {
+    background: white;
+    padding: 3rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.no-data p {
+    margin: 0;
+    color: #6c757d;
+}
